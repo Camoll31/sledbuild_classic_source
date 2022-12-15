@@ -1,0 +1,1056 @@
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\dgyhg\Desktop\slb_snowsled_v5.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_03, using default
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 510 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (3) (1081451 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2304 texinfos to 1574
+Reduced 237 texdatas to 183 (9604 bytes to 7717)
+Writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.bsp
+8 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.prt
+2769 portalclusters
+8747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 178585 visible clusters (4.74%)
+Total clusters visible: 3765878
+Average clusters visible: 1360
+Building PAS...
+Average clusters audible: 2659
+visdatasize:1475601  compressed from 1949376
+writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12088 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12072 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+267056 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65181852, max 1652
+transfer lists: 497.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2371308, 2477293, 1612284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(441039, 437447, 203371)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(114425, 111520, 52366)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28829, 27059, 12070)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7670, 7037, 3358)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2034, 1804, 899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(552, 476, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 126, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 34, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1875 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18459/65536      221508/786432   (28.2%) 
+nodes                 6028/65536      192896/2097152  ( 9.2%) 
+texinfos              1574/12288      113328/884736   (12.8%) 
+texdata                183/2048         5856/65536    ( 8.9%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12088/65536      676928/3670016  (18.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6119/65536      195808/2097152  ( 9.3%) 
+leaffaces            16700/65536       33400/131072   (25.5%) 
+leafbrushes           6993/65536       13986/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82238/512000     328952/2048000  (16.1%) 
+edges                48784/256000     195136/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1600/32768       16000/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29283/65536       58566/131072   (44.7%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11064428/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6119/65536       24476/262144   ( 9.3%) 
+HDR ambient table     6119/65536       24476/262144   ( 9.3%) 
+LDR leaf ambient     29211/65536      817908/1835008  (44.6%) 
+HDR leaf ambient      6119/65536      171332/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35437
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12088 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12072 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+267056 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65181852, max 1652
+transfer lists: 497.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1593943, 1624811, 756270)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(359067, 344805, 110139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(94856, 87500, 26331)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24810, 21757, 5884)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6657, 5589, 1522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1791, 1432, 388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(489, 373, 107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(135, 98, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(38, 26, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18459/65536      221508/786432   (28.2%) 
+nodes                 6028/65536      192896/2097152  ( 9.2%) 
+texinfos              1574/12288      113328/884736   (12.8%) 
+texdata                183/2048         5856/65536    ( 8.9%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12088/65536      676928/3670016  (18.4%) 
+hdr faces            12088/65536      676928/3670016  (18.4%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6119/65536      195808/2097152  ( 9.3%) 
+leaffaces            16700/65536       33400/131072   (25.5%) 
+leafbrushes           6993/65536       13986/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82238/512000     328952/2048000  (16.1%) 
+edges                48784/256000     195136/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights         93/8192         8184/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1600/32768       16000/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29283/65536       58566/131072   (44.7%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11064428/0        ( 0.0%) 
+HDR lightdata         [variable]    11064428/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6119/65536       24476/262144   ( 9.3%) 
+HDR ambient table     6119/65536       24476/262144   ( 9.3%) 
+LDR leaf ambient     29211/65536      817908/1835008  (44.6%) 
+HDR leaf ambient     27703/65536      775684/1835008  (42.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35437
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 31 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\dgyhg\Desktop\slb_snowsled_v5.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_03, using default
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 510 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (3) (1081451 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2305 texinfos to 1575
+Reduced 235 texdatas to 181 (9548 bytes to 7661)
+Writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.prt
+2769 portalclusters
+8747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 178585 visible clusters (4.74%)
+Total clusters visible: 3765878
+Average clusters visible: 1360
+Building PAS...
+Average clusters audible: 2659
+visdatasize:1475601  compressed from 1949376
+writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12087 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12071 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266379 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65149469, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2357702, 2462153, 1596829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(440435, 436702, 202620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(114358, 111427, 52258)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28826, 27054, 12062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7670, 7036, 3357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2034, 1804, 899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(552, 476, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 126, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 34, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1419 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18457/65536      221484/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1575/12288      113400/884736   (12.8%) 
+texdata                181/2048         5792/65536    ( 8.8%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12087/65536      676872/3670016  (18.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16696/65536       33392/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82233/512000     328932/2048000  (16.1%) 
+edges                48780/256000     195120/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1598/32768       15980/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29253/65536       58506/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29216/65536      818048/1835008  (44.6%) 
+HDR leaf ambient      6121/65536      171388/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35434
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12087 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12071 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266379 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65149469, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1589339, 1619667, 751005)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(358861, 344551, 109882)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(94833, 87468, 26294)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24808, 21755, 5881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6657, 5588, 1522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1791, 1432, 388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(489, 373, 107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(135, 98, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(38, 26, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18457/65536      221484/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1575/12288      113400/884736   (12.8%) 
+texdata                181/2048         5792/65536    ( 8.8%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12087/65536      676872/3670016  (18.4%) 
+hdr faces            12087/65536      676872/3670016  (18.4%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16696/65536       33392/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82233/512000     328932/2048000  (16.1%) 
+edges                48780/256000     195120/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights         93/8192         8184/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1598/32768       15980/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29253/65536       58506/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]    11042712/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29216/65536      818048/1835008  (44.6%) 
+HDR leaf ambient     27673/65536      774844/1835008  (42.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35434
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 33 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\dgyhg\Desktop\slb_snowsled_v5.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_03, using default
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 510 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (5) (1081451 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2305 texinfos to 1575
+Reduced 236 texdatas to 182 (9582 bytes to 7695)
+Writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.bsp
+11 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.prt
+2769 portalclusters
+8747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 178585 visible clusters (4.74%)
+Total clusters visible: 3765878
+Average clusters visible: 1360
+Building PAS...
+Average clusters audible: 2659
+visdatasize:1475601  compressed from 1949376
+writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12087 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12071 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266379 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65149469, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2357702, 2462153, 1596829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(440414, 436687, 202606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(114357, 111427, 52258)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28826, 27054, 12062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7670, 7036, 3357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2034, 1804, 899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(552, 476, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 126, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 34, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1078 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18457/65536      221484/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1575/12288      113400/884736   (12.8%) 
+texdata                182/2048         5824/65536    ( 8.9%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12087/65536      676872/3670016  (18.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16696/65536       33392/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82233/512000     328932/2048000  (16.1%) 
+edges                48780/256000     195120/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1598/32768       15980/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29253/65536       58506/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29216/65536      818048/1835008  (44.6%) 
+HDR leaf ambient      6121/65536      171388/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35434
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 53 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\dgyhg\Desktop\slb_snowsled_v5.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_03, using default
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 510 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (3) (1081451 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2305 texinfos to 1575
+Reduced 235 texdatas to 181 (9553 bytes to 7666)
+Writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.prt
+2769 portalclusters
+8747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 178585 visible clusters (4.74%)
+Total clusters visible: 3765878
+Average clusters visible: 1360
+Building PAS...
+Average clusters audible: 2659
+visdatasize:1475601  compressed from 1949376
+writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12087 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12071 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266379 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65149469, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2357702, 2462153, 1596829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(440372, 436658, 202577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(114355, 111425, 52256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28826, 27053, 12062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7670, 7036, 3357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2034, 1804, 899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(552, 476, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 126, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 34, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0935 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18457/65536      221484/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1575/12288      113400/884736   (12.8%) 
+texdata                181/2048         5792/65536    ( 8.8%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12087/65536      676872/3670016  (18.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16696/65536       33392/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82233/512000     328932/2048000  (16.1%) 
+edges                48780/256000     195120/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1598/32768       15980/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29253/65536       58506/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29215/65536      818020/1835008  (44.6%) 
+HDR leaf ambient      6121/65536      171388/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35434
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 2 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\dgyhg\Desktop\slb_snowsled_v5.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_03, using default
+Can't find surfaceprop sheetrock for material Z-O-M-B-I-E/STALKER/WALL/WALL_WALLPAPER_01, using default
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 510 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/office*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (3) (1081451 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2306 texinfos to 1576
+Reduced 235 texdatas to 181 (9553 bytes to 7666)
+Writing C:\Users\dgyhg\Desktop\slb_snowsled_v5.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+reading c:\users\dgyhg\desktop\slb_snowsled_v5.prt
+2769 portalclusters
+8747 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 178585 visible clusters (4.74%)
+Total clusters visible: 3765878
+Average clusters visible: 1360
+Building PAS...
+Average clusters audible: 2659
+visdatasize:1475601  compressed from 1949376
+writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12089 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12073 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266381 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65150057, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2357776, 2462236, 1596914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(440374, 436661, 202582)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(114356, 111426, 52256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28826, 27053, 12062)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7670, 7036, 3357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2034, 1804, 899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(552, 476, 260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(151, 126, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(42, 34, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(12, 9, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0892 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18458/65536      221496/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1576/12288      113472/884736   (12.8%) 
+texdata                181/2048         5792/65536    ( 8.8%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12089/65536      676984/3670016  (18.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16698/65536       33396/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82240/512000     328960/2048000  (16.1%) 
+edges                48784/256000     195136/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1597/32768       15970/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29241/65536       58482/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29215/65536      818020/1835008  (44.6%) 
+HDR leaf ambient      6121/65536      171388/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35437
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+2 minutes, 2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+PREP OK
+12089 faces
+16 degenerate faces
+20001618 square feet [2880232960.00 square inches]
+50 Displacements
+958033 Square Feet [137956768.00 Square Inches]
+12073 patches before subdivision
+Zero area child patch at around -9622.654297 -11800.554688 -6248.114258
+Zero area child patch at around -12964.925781 9707.169922 -2144.527832
+Zero area child patch at around -13012.345703 9734.524414 -2270.532959
+Zero area child patch at around -8662.758789 -12929.283203 -7070.740234
+Zero area child patch at around -8227.163086 -12989.913086 -7186.936035
+Zero area child patch at around -12461.712891 9779.988281 -1911.966187
+Zero area child patch at around -11857.345703 10573.000000 -1896.115479
+Zero area child patch at around 13461.796875 11815.399414 1073.119995
+266381 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 65150057, max 1652
+transfer lists: 497.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1589364, 1619695, 751033)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(358841, 344537, 109869)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(94832, 87468, 26294)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24808, 21755, 5881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6657, 5588, 1522)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1791, 1432, 388)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(489, 373, 107)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(135, 98, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(38, 26, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1880 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  90/4096         4320/196608   ( 2.2%) 
+brushes               2014/16384       24168/196608   (12.3%) 
+brushsides           18976/163840     151808/1310720  (11.6%) 
+planes               15940/65536      318800/1310720  (24.3%) 
+vertexes             18458/65536      221496/786432   (28.2%) 
+nodes                 6030/65536      192960/2097152  ( 9.2%) 
+texinfos              1576/12288      113472/884736   (12.8%) 
+texdata                181/2048         5792/65536    ( 8.8%) 
+dispinfos               50/0            8800/0        ( 0.0%) 
+disp_verts            1946/0           38920/0        ( 0.0%) 
+disp_tris             2848/0            5696/0        ( 0.0%) 
+disp_lmsamples      631456/0          631456/0        ( 0.0%) 
+faces                12089/65536      676984/3670016  (18.4%) 
+hdr faces            12089/65536      676984/3670016  (18.4%) 
+origfaces             5636/65536      315616/3670016  ( 8.6%) 
+leaves                6121/65536      195872/2097152  ( 9.3%) 
+leaffaces            16698/65536       33396/131072   (25.5%) 
+leafbrushes           6994/65536       13988/131072   (10.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            82240/512000     328960/2048000  (16.1%) 
+edges                48784/256000     195136/1024000  (19.1%) 
+LDR worldlights         93/8192         8184/720896   ( 1.1%) 
+HDR worldlights         93/8192         8184/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1597/32768       15970/327680   ( 4.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         29241/65536       58482/131072   (44.6%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]    11042712/0        ( 0.0%) 
+HDR lightdata         [variable]    11042712/0        ( 0.0%) 
+visdata               [variable]     1475601/16777216 ( 8.8%) 
+entdata               [variable]      116492/393216   (29.6%) 
+LDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+HDR ambient table     6121/65536       24484/262144   ( 9.3%) 
+LDR leaf ambient     29215/65536      818020/1835008  (44.6%) 
+HDR leaf ambient     27674/65536      774872/1835008  (42.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9218     ( 0.0%) 
+pakfile               [variable]     1426623/0        ( 0.0%) 
+physics               [variable]     1081451/4194304  (25.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35437
+Writing c:\users\dgyhg\desktop\slb_snowsled_v5.bsp
+3 minutes, 10 seconds elapsed
